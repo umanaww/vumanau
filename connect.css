@@ -158,6 +158,32 @@
     background-color: #fff;
     border-color: #fff;
   }
+@media only screen and (max-width: 1080px) {
+    .heading{
+        font-size: 1.5em;
+        padding: 5px;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .tgwrite {
+        font-size: 20px;
+    }
+    .tg {
+        width: 100%;
+    }
+    .form-container {
+        width: 100%;
+    }
+    .form-container .form-group input {
+        padding: 6px 8px;
+    }
+    .form-container .form-group textarea {
+        padding: 6px 8px;
+        height: 48px;
+    }
+}
+
   
   
   
