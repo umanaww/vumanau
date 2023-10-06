@@ -203,3 +203,39 @@ footer{
 main{
   margin-bottom:100px;
 }
+@media only screen and (max-width: 1080px) {
+  .btn2{
+      font-size: 20px;
+      margin-left: 50px;
+      width:200px;
+      height: 40px;
+  }
+  .abtext{
+      font-size: 15px;
+      margin: 10px;
+      flex-basis: 88%;
+  }
+  .card {
+      width: 100px;
+      height: 100px;
+    }
+    .img1{
+        width: 40px;
+        height: 40px;
+    }
+    .card-title {
+        font-size: 10px;
+    }
+    .card-title span {
+        font-size: 7.5px;
+    }
+    .img1:hover {
+        width: 45px;
+        height:45px
+    }
+    .button {
+        margin-right: 25px;
+        margin-left: 25px;
+        font-size: 9px;
+    }
+}
