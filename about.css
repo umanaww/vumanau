@@ -203,7 +203,8 @@ footer{
 main{
   margin-bottom:100px;
 }
-@media only screen and (max-width: 1080px) {
+<!-------------------------------ADAPTATION FOR PHONE----------------------
+@media only screen and (max-width: 850px) {
   .btn2{
       font-size: 20px;
       margin-left: 50px;
@@ -211,12 +212,12 @@ main{
       height: 40px;
   }
   .abtext{
-      font-size: 15px;
+      font-size: 10px;
       margin: 10px;
-      flex-basis: 88%;
+      flex-basis: auto;
   }
   .card {
-      width: 100px;
+      width: 140px;
       height: 100px;
     }
     .img1{
@@ -238,4 +239,7 @@ main{
         margin-left: 25px;
         font-size: 9px;
     }
+}
+.container {
+  flex-direction: row;
 }
