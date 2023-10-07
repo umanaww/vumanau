@@ -203,7 +203,7 @@ footer{
 main{
   margin-bottom:100px;
 }
-<!-------------------------------ADAPTATION FOR PHONE----------------------
+
 @media only screen and (max-width: 1080px) {
   .btn2{
       font-size: 20px;
