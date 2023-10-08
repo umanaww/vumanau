@@ -204,49 +204,33 @@ main{
   margin-bottom:100px;
 }
 
-@media only screen and (max-width: 1080px) {
-  .btn2{
-      font-size: 20px;
-      margin-left: 50px;
-      width:200px;
-      height: 40px;
+
+@media (max-width:700px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
   }
-  .abtext{
-      font-size: 10px;
-      margin: 10px;
-      flex-basis: auto;
+  .abtext {
+    font-size: 18px;
+    margin: 10px;
+    flex-basis: auto;
+    text-align: center;
   }
   .card {
-      width: 140px;
-      height: 100px;
-    }
-    .img1{
-        width: 40px;
-        height: 40px;
-    }
-    .card-title {
-        font-size: 10px;
-        text-align: center; 
-    }
-    .card-title span {
-        font-size: 7.5px;
-    }
-    .img1:hover {
-        width: 45px;
-        height:45px
-    }
-    .button {
-        margin-right: 25px;
-        margin-left: 25px;
-        font-size: 9px;
-    }
-}
-.container {
-  flex-direction: row;
-  justify-content: space-between; 
-}
-footer{
-    position: fixed;
-    bottom: 0; 
-    width: 100%; 
+    margin-bottom: 20px;
+    flex-basis: auto;
+  }
+  .btn2 {
+    font-size: 30px;
+    width: 300px;
+    height: 60px;
+    margin-left: 0;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  footer{
+    padding-bottom: 2px
+
+  }
 }
