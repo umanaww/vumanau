@@ -230,4 +230,22 @@ h2{
   font-weight: 500;
   cursor: pointer;
  }  
-
+ @media (max-width:700px) {
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 12px;
+    gap: 15px;
+    background-color: #181717;
+    outline: 3px #181717 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+    transition: 400ms;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+  }
+ }
